@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+            <div class="Ingresa Usuario" id="Ingresa Usuario" >
+                <h1>Casa de Cambio Roca</h1>
+                <h2>Ingresa Usuario</h2>
+                <form id="formIngreso">
+                    
+                     <input type="text" id="inputNombre" placeholder="Ingresa Nombre" required >
+                     <input type="number" id="inputDNI" placeholder="Ingresa DNI" required >
+                     <input type="number" id="inputContraseña" placeholder="Ingresa Contraseña Num" required >
+                     <button id="boton">Go</button> <!--boton submit style o no ????? probar despues saapee-->
+                </form>
+                
+            </div>
+
+                <div class="Bienvenido" id="Bienvenido">
+                    <h1>Divisa a Comprar</h1>
+                        <form id="formCompra">
+                         <label for="moneda a elegir">Divisa</label>   
+                            <input type="text" id="moneda">
+                            <button id="Elegir">Elegir</button>
+                        </form>
+
+                </div>
+                    <div class="Cotizar" id="Cotizar">
+                        <h1>Comprar Divisa Elegida</h1>
+                        <form id="Cotizar-comprar">
+                            <label for="monto">Ingresa Monto a Comprar en AR$"</label>
+                            <input id="elegiste">
+                            <button id="comprar" >Comprar</button>
+                            
+
+                        </form>
+                    </div>
+
+                            <div class="Mensaje " id="Mensaje"></div>
+
+
+
+        <script src="CambioRoca.js"></script>
+</body>
+</html>
